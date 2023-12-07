@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/psychologist/static/css/main.b87514ff.css",
+    "main.js": "/psychologist/static/js/main.5a9bc161.js",
+    "index.html": "/psychologist/index.html",
+    "main.b87514ff.css.map": "/psychologist/static/css/main.b87514ff.css.map",
+    "main.5a9bc161.js.map": "/psychologist/static/js/main.5a9bc161.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b87514ff.css",
+    "static/js/main.5a9bc161.js"
+  ]
+}
