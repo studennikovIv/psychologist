@@ -1,6 +1,7 @@
 import { observer } from 'mobx-react-lite';
 
 import { Header } from 'components/Header/Header.jsx';
+import { Hero } from 'components/Hero/Hero.jsx'
 
 const App = observer(() => {
   // const { basketStore } = useStore();
@@ -8,6 +9,7 @@ const App = observer(() => {
   return (
   <div>
     <Header />
+    <Hero/>
   </div>);
 });
 

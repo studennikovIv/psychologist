@@ -1,0 +1,10 @@
+.Hero{
+    display: flex;
+}
+.heroCenter{
+    width: 1180px;
+    background-color: green;
+}
+.heroLeft h3{
+    font-size: 60px;
+}
