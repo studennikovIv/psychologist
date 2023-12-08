@@ -1,21 +1,52 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
 .conteiner{
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding:   0 85px 0 85px;
 }
 .header{
-    background-color: red;
-    height: 50px;
+
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 10px;
 }
 .navList{
     display: flex;
+    height: 100%;
     
 }
 .telHeader{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    font-family: 'Inter';
+}
+.navList a{
+    color:#ccc;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    
+}
+.navList .active{
+    color: #30D5C8;
+    border-bottom: 2px solid #42423e;
+    font-weight: 600;
+}
+.navList a + a {
+    margin-left: 40px;
+   
+}
+.registerButton{
+    display: flex;
+    font-family: 'Inter';
+}
+.registerButton img{
+    margin-right: 40px;
 }
