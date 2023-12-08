@@ -1,7 +1,21 @@
+.conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
 .header{
     background-color: red;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.navList{
+    display: flex;
+    
+}
+.telHeader{
+    display: flex;
+    flex-direction: column;
 }
