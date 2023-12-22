@@ -1,10 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 .Hero{
     display: flex;
+    margin-top: 50px;
+    font-weight: 500;
 }
 .heroCenter{
-    width: 1180px;
-    background-color: green;
+    position: relative;
+    width: 33%;
+    height: 577px;
+    border: 2px solid black;
+}
+.heroCenter button{
+   position: absolute;
+   bottom: 10px;
+   left: -60px;
+    background-color: #f93;
+    color: #fff;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    font-size: 13px;
+    transition: 0.3s all;
+}
+.heroCenter button:hover{
+    background-color: #fff;
+    color: #f93;
+    border: 1px solid #f93;
+    
+}
+.heroLeft{
+    padding-right: 40px;
+    width: 33%;
 }
 .heroLeft h3{
-    font-size: 60px;
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: lora;
+}
+.heroLeft p{
+    margin-top: 70px;
+    font-size: 15px;
+    font-weight: 400;
+    width: 90%;
+}
+.heroLeft p span{
+    color: #30D5C8;
+}
+
+.linkList{
+    margin-top: 70px;
+}
+.linkList li + li{
+    margin-top: 30px;
+}
+.linkList a{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background-color: #cbcac4;
+    color:#fff;
+}
+
+.heroRight{
+    width: 33%;
+    padding-left: 40px;
+    position: relative;
+}
+.btnTop{
+
+
+}
+.heroRight p{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 100px 0 100px 0;  
+    margin-top: 70px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.heroRight p span{
+    color:#30D5C8;
+}
+.heroRight ul{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    display: flex;
+}
+.heroRight ul li{
+    display: flex;
+   
+}
+.heroRight ul li a{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background-color: #cbcac4;
+    color:#fff
+}
+.heroRight ul li + li{
+    margin-left: 40px;
 }

@@ -2,6 +2,7 @@ import { observer } from 'mobx-react-lite';
 
 import { Header } from 'components/Header/Header.jsx';
 import { Hero } from 'components/Hero/Hero.jsx'
+import { BasicQueries } from 'components/BasicQueries/BasicQueries'
 
 const App = observer(() => {
   // const { basketStore } = useStore();
@@ -10,6 +11,7 @@ const App = observer(() => {
   <div>
     <Header />
     <Hero/>
+    <BasicQueries/>
   </div>);
 });
 
