@@ -1,30 +1,33 @@
 
 
-.conteiner{
-    max-width: 100%;
-    margin: 0 auto;
-    padding:   0 85px 0 85px;
-}
-.header{
 
-    height: 70px;
+.header{
+    height: 54px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+    padding-left: 50px;
+    
 }
 .navList{
     display: flex;
     height: 100%;
+    /* margin-left: 251px; */
+    font-size: 16px;
     
 }
 .telHeader{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Inter';
-    font-weight: 300;
+    font-family: Manrope;
     font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
 .navList a{
     color:#ccc;
@@ -32,22 +35,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    font-family: Manrope;
+    color:#CBCAC5;
     
 }
 .navList .active{
-    color: #30D5C8;
+    color: #40C3BA;
     border-bottom: 2px solid #42423e;
-    font-weight: 600;
+    
 }
 .navList a + a {
-    margin-left: 40px;
+    margin-left: 50px;
    
 }
 .registerButton{
     display: flex;
-    font-family: 'Inter';
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
 .registerButton img{
-    margin-right: 40px;
+    margin-right: 20px;
 }

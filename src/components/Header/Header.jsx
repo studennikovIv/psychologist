@@ -1,5 +1,5 @@
-import headerImg from '../../images/header logo.png'
-import headerRegistrationIcon from '../../images/registrationIcon.png'
+import headerImg from '../../images/logo.png'
+import headerRegistrationIcon from '../../images/icon/iconRegistration.png'
 import  './style.css'
 export const Header = () =>{
     return(
@@ -7,7 +7,7 @@ export const Header = () =>{
     
         <div className='conteiner'>
             <header className='header'>
-               <a href="google.com"> <img src={headerImg} alt="Логотип" /></a>
+               <a href="/"> <img src={headerImg} alt="Логотип" /></a>
                 <nav className='navList'>
                     <a className='active' href="/">Меню</a>
                     <a href="/">Обо мне</a>

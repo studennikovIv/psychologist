@@ -1,4 +1,11 @@
 import  './style.css'
+import iconVk from '../../images/icon/iconVk.png'
+import iconEmeil from '../../images/icon/iconEmail.png'
+import iconWatsApp from '../../images/icon/iconWatsApp.png'
+import iconSms from '../../images/icon/iconSms.png'
+import iconSkype from '../../images/icon/iconSkype.png'
+import iconTelegram from '../../images/icon/iconTelegram.svg'
+
 export const Hero = () =>{
     return(
         
@@ -10,17 +17,17 @@ export const Hero = () =>{
             <ul className='linkList'>
                 <li>
                     <a href="/">
-                        1
+                        <img src={iconVk} alt="" />
                     </a>
                 </li>
                 <li>
                     <a href="/">
-                        1
+                        <img src={iconWatsApp} alt="" />
                     </a>
                 </li>
                 <li>
                     <a href="/">
-                        1
+                        <img src={iconSms} alt="" />
                     </a>
                 </li>
             </ul>
@@ -30,14 +37,22 @@ export const Hero = () =>{
             <button>Записаться на <br /> консультацию</button>
             </div>
             <div className='heroRight'>
-            <button className='btnTop'> Предлагаю обсудить терапию в мессенджере</button>
+            <button className='btnTop'>
+                <span className='iconTelegramBtn'><img src={iconTelegram} alt="" /></span>
+                
+                Предлагаю обсудить терапию в мессенджере
+            </button>
             <p>Привет! Меня зовут Яна Кравченко. Рада видеть на своем сайте! Я практикующий психолог. Работаю в интегративном подходе с гуманистическим уклоном. У меня вы можете получить как единоразовую консультацию по интересующей вас проблеме, так и <span> пройти курс</span> длительной психотерапии</p>
             <ul>
                 <li>
-                   <a href="/">1</a> 
+                    <a href="/">
+                        <img src={iconEmeil} alt="" />
+                    </a> 
                 </li>
                 <li>
-                   <a href="/">1</a> 
+                    <a href="/">
+                        <img src={iconSkype} alt="" />
+                    </a> 
                 </li>
             </ul>
             </div>

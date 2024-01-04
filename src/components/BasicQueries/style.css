@@ -1,0 +1,22 @@
+.BasicQueries{
+    margin-top: 70px;
+}
+.BasicQueries ul li{
+    width: 400px;
+    text-align: center;
+}
+.BasicQueries ul li + li{
+    margin-left: 30px;
+}
+.basicQueriesTopList{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+.basicQueriesBottomList{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 50px;
+}
