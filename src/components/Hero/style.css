@@ -7,7 +7,6 @@
     position: relative;
     width: 460px;
     height: 720px;
-    /* border: 2px solid black; */
     background-image: url(../../images/imgBgHero.png);
 }
 .heroCenter button{
@@ -35,7 +34,7 @@
 }
 .heroLeft h3{
     font-family: Noto Serif;
-    font-size: 33px;
+    font-size: 30px;
     font-weight: 500;
     line-height: 54px;
     letter-spacing: 0em;
@@ -81,6 +80,7 @@
 }
 .btnTop{
     display: flex;
+
     font-family: Manrope;
     font-size: 16px;
     font-weight: 400;
@@ -94,7 +94,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
+    width: 65px;
     height: 40px;
     background-color: #40C3BA;
     margin-right: 25px;

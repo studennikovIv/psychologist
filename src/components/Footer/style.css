@@ -1,0 +1,86 @@
+.footer{
+    margin-top: 80px;
+}
+.footerTop{
+    display: flex;
+}
+.logoFoter{
+    width: 40px;
+    height: 40px;
+}
+.listLink{
+    margin-left: 100px;
+}
+.listLink ul li{
+    width: 40px;
+    height: 40px;
+    background-color: #cbcac4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listLink ul{
+    display: flex;
+}
+.listLink ul li{
+    margin-left: 40px;
+}
+.bottomList li{
+ margin-top: 40px;
+}
+.textConteiner{
+    width: 380px;
+    margin-left: 260px;
+    margin-top: 50px;
+}
+.textConteiner h4{
+
+    font-family: Noto Serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.textConteiner p{
+
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.footerBottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 38px;
+}
+.copirate{
+    position: relative;
+
+}
+.copirate::before{
+    content:' \00a9' ;
+}
+.formFooter{
+    display: flex;
+}
+.formFooter input{
+    width: 380px;
+    height: 62px;
+    padding: 20px;
+    border: 1px solid #CBCAC5;
+}
+.formFooter button{
+    margin-left: 38px;
+    background-color: #40C3BA;
+    width: 62px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
