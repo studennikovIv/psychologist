@@ -1,5 +1,7 @@
 .footer{
     margin-top: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .footerTop{
     display: flex;
@@ -11,13 +13,38 @@
 .listLink{
     margin-left: 100px;
 }
-.listLink ul li{
+.listLink ul li a{
     width: 40px;
     height: 40px;
     background-color: #cbcac4;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.5s all;
+}
+.telegram:hover{
+    background-color: #40C3BA;
+    border-radius: 50%;
+}
+.VK:hover{
+    background-color: #306AFF;
+    border-radius: 50%;
+}
+.watsApp:hover{
+    background-color: #30FF5D;
+    border-radius: 50%;
+}
+.sms:hover{
+    background-color: #000;
+    border-radius: 50%;
+}
+.email:hover{
+    background-color:#000 ;
+    border-radius: 50%;
+}
+.skype:hover{
+    background-color:#2EB5EF ;
+    border-radius: 50%;
 }
 .listLink ul{
     display: flex;
@@ -89,4 +116,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.5s all;
+}
+.formFooter button:hover{
+    border-radius: 50%;
+    background-color: #CBCAC5;
 }

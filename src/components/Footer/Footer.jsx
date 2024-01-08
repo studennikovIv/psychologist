@@ -6,6 +6,7 @@ import iconWatsApp from '../../images/icon/iconWatsApp.png'
 import iconSms from '../../images/icon/iconSms.png'
 import iconSkype from '../../images/icon/iconSkype.png'
 import iconTelegram from '../../images/icon/iconTelegram.svg'
+import sendSms from '../../components/../images/icon/tg2.png'
 export const Footer = () =>{
     return(
         
@@ -16,24 +17,36 @@ export const Footer = () =>{
                 <div className="listLink">
                     <ul>
                         <li>
-                            <img src={iconTelegram} alt="" />
+                            <a href="/" className='telegram'>
+                                <img src={iconTelegram} alt="" />
+                            </a>
                         </li>
                         <li>
-                            <img src={iconVk} alt="" />
+                            <a href="/" className='VK'>
+                                <img src={iconVk} alt="" />
+                            </a>
                         </li>
                         <li>
-                            <img src={iconWatsApp} alt="" />
+                            <a href="/" className='watsApp'>
+                                <img src={iconWatsApp} alt="" />
+                            </a>
                         </li>
                     </ul>
                     <ul className='bottomList'>
                         <li>
-                            <img src={iconSms} alt="" />
+                            <a href="/"  className='sms'>
+                                <img src={iconSms} alt="" />
+                            </a>
                         </li>
                         <li>
-                            <img src={iconEmeil} alt="" />
+                            <a href="/" className='email'>
+                                <img src={iconEmeil} alt="" />
+                            </a>
                         </li>
                         <li>
-                            <img src={iconSkype} alt="" />
+                            <a href="/" className='skype'>
+                                <img src={iconSkype} alt="" />
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -46,8 +59,8 @@ export const Footer = () =>{
                 <p>Политика конфиденциальности</p>
                 <p className='copirate'>2023 Все права защищены</p>
                 <div className="formFooter">
-                    <input type="text" />
-                    <button><img src={iconTelegram} alt="" /></button>
+                    <input type="text"  placeholder='Ваша почта'/>
+                    <button><img src={sendSms} alt="" /></button>
                 </div>
             </div>
         </div>

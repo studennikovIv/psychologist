@@ -1,6 +1,6 @@
 .BasicQueries{
     margin-top: 120px;
-    padding: 0 50px 0 50px;
+   
 }
 .BasicQueries h3{
     font-family: Noto Serif;
@@ -10,6 +10,7 @@
     letter-spacing: 0em;
     text-align: left;
     position: relative;
+    margin-left: 80px;
 }
 .BasicQueries h3::after,
 .BasicQueries h3::before{
