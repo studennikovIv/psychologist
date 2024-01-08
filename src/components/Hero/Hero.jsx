@@ -10,6 +10,7 @@ export const Hero = () =>{
     return(
         
     <div className='conteiner'>
+       
         <div className="bg"></div>
         <div className='Hero'>
         <div className='heroLeft'>
@@ -41,11 +42,15 @@ export const Hero = () =>{
             <button>Записаться на <br /> консультацию</button>
         </div>
             <div className='heroRight'>
+            
             <button className='btnTop'>
-                <span className='iconTelegramBtn'><img src={iconTelegram} alt="" /></span>
+                <span className='iconTelegramBtn'>
+                    <img src={iconTelegram} alt="" />
+                </span>
                 
                 Предлагаю обсудить терапию в мессенджере
             </button>
+            <div className="bg2"></div>
             <p>Привет! Меня зовут Яна Кравченко. Рада видеть на своем сайте! Я практикующий психолог. Работаю в интегративном подходе с гуманистическим уклоном. У меня вы можете получить как единоразовую консультацию по интересующей вас проблеме, так и <span> пройти курс</span> длительной психотерапии</p>
             <ul>
                 <li>
