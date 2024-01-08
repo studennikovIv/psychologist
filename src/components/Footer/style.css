@@ -74,6 +74,12 @@
     height: 62px;
     padding: 20px;
     border: 1px solid #CBCAC5;
+    transition: 0.5s all;
+}
+.formFooter input:focus{
+    border-color:#40C3BA;
+    outline:none;
+    color:#000
 }
 .formFooter button{
     margin-left: 38px;
