@@ -1,0 +1,27 @@
+.reviews h3{
+    font-family: Noto Serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    position: relative;
+}  
+.reviews h3::after,
+.reviews h3::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    width: 160px; /* Ширина полосы сбоку от заголовка */
+    height: 1px;
+    background-color: #333; /* Цвет полосы */
+}
+.reviews h3::after{
+    left :27%;
+    top: 50%;
+}
+.reviews h3::before{
+    right: 27%;
+    top: 50%;
+}  
